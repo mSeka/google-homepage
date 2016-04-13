@@ -1,0 +1,132 @@
+body {
+    font-family: arial, sans-serif;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+#header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 50px;
+    margin-top: 0px;
+    padding-top: 0px;
+    font-size: 13px;
+    opacity: .9;
+}
+#header ul {
+    float: right;
+    margin-top: 8px;
+    padding: 0;
+    border: 0;
+    padding-right: 25px;
+}
+#header li {
+    margin: 0 5px;
+    display: inline-block;
+    vertical-align: middle;
+}
+#header li:first-child {
+    opacity: .6;
+}
+#header li a {
+    text-decoration: none;
+    color: black;
+}
+#header li a:hover {
+    text-decoration: underline;
+    color: black;
+}
+#avatar {
+    height: 32px;
+    width: 32px;
+    border-radius: 100%;
+}
+#content {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+#logo {
+    background: url("https://www.google.ch/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png");
+    width: 272px;
+    height: 92px;
+    margin: 0 auto;
+}
+#country {
+    color: #4285f4;
+    font: 16px/16px roboto-regular, arial, sans-serif;
+    left: 110px;
+    position: relative;
+    top: -30px;
+    white-space: nowrap;
+}
+input {
+    width: 525px;
+    height: 26px;
+    line-height: 26px;
+    font-family: arial, sans-serif;
+    font-size: 1em;
+    color: #333;
+    border: 1px solid #d9d9d9;
+    margin: 0 auto;
+    margin-bottom: 2em;
+}
+input:hover {
+    border: 1px solid #999;
+    opacity: .7;
+}
+.submit {
+    height: 34px;
+    color: #F8F8F8;
+    display: inline-block;
+    opacity: .7;
+    color: black;
+    font-weight: bold;
+    padding: 5px 13px;
+}
+.submit:hover {
+    opacity: .8;
+}
+#footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #efefef;
+    text-align: center;
+    font-size: 13px;
+}
+#footer li {
+    margin: 0 5px;
+    display: inline-block;
+    vertical-align: middle;
+}
+#left {
+    float: left;
+    padding: 0;
+    border: 0;
+    padding-right: 25px;
+}
+#left li:first-child {
+    padding-left: 20px;
+}
+#right {
+    float: right;
+    padding: 0;
+    border: 0;
+    padding-right: 25px;
+}
+#footer a {
+    text-decoration: none;
+    color: #333;
+    opacity: .8;
+}
+#footer a:hover {
+    text-decoration: underline;
+    color: #333;
+    opacity: 1;
+}
